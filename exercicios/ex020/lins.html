@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(56, 53, 53);
+            color: aliceblue;
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+          div{
+            
+            width: 220px;
+          }
+
+          div > ul{
+            display: none;
+          }
+
+          div:hover > ul{
+            display: block;
+          }
+         a{
+            color: aqua;
+            text-decoration: none;
+            font-weight: bold;
+         }
+
+         a:visited{
+            color: rgb(30, 92, 92);            
+         }
+         a::before{
+            content: '🔗';
+         }
+         a::after{
+            content: '🔗';
+         }
+        
+         a:hover {
+            color: aqua;
+            font-size: 1.1em;
+            text-decoration: underline;
+            animation-duration: 1.1;
+
+         }
+
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>sites famosos</h1>
+        
+            <ul>
+                <li><a href="https://www.youtube.com" target="_blank">youtube</a></li>
+                <li><a href="https://www.amazon.com.br/ref=nav_logo" target="_blank">amazon</a></li>
+                <li><a href="https://shopee.com.br" target="_blank">shopee</a></li>
+            </ul>
+    </div>
+    
+</body>
+</html>
