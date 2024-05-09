@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posição do fundo</title>
+<style>
+        body{
+            height: 100vh;
+        }
+        .fundo{
+          height: 200px;
+          border: 2px solid black;
+          border-radius: 10px;
+          margin: 5px;
+          background-image: url(pictures/wallpaper003.jpg);
+        }
+        
+       /* o primeiro nome indica linha : top , center , bottom
+        o segundo é a coluna : :left , center , :right  */
+
+        #ps1{
+            background-position: left top;
+        }
+        #ps2{
+            background-position: bottom right;
+        }
+        #ps3{
+            background-position: center center;
+        }
+        #ps4{
+            background-position: left bottom;
+        }
+
+</style>
+</head>
+<body>
+    <div class="fundo" id="ps1"></div>
+    <div class="fundo" id="ps2"></div>
+    <div class="fundo" id="ps3"></div>
+    <div class="fundo" id="ps4"></div>
+</body>
+</html>
