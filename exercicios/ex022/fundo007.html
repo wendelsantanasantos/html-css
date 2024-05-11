@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centralização de Div</title>
+    <style>
+        #container{
+            background-color: yellow;
+            margin: 0;
+            height: 100vh;
+            background-attachment: fixed;
+            /*como alinhar uma div no centro exato*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #conteudo{
+            background-color: blueviolet;
+            width: 200px;
+            height: 150px;
+
+            /*  outro modo de centralizar a div */
+
+            position: absolute;
+            left : 50%;
+            top :50%;
+
+            transform: translate(-50% , -50%) ;
+           
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo"></article>
+    </section>
+</body>
+</html>

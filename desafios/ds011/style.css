@@ -1,0 +1,87 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+
+header{
+    background-color: black;
+    color: #fff;
+    padding: 55px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    font-family:'Passion One' , cursive;
+
+}
+
+header > h1{
+    font-size: 3em; ;
+    font-variant: small-caps;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.5em;
+    font-weight: bolder;
+    padding: 0;
+    margin-top: 0px;
+}
+
+header > p > a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+main{
+    text-align: left;
+    font-family: 'Sriracha' , cursive;
+    font-size: 2.2em;
+    
+}
+
+main > p{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 25px;
+    line-height: 2em;
+}
+
+
+#back1{
+    background: rgb(255, 255, 255) url(imagens/background001.jpg) center center no-repeat fixed;
+    height: 500px; 
+    background-size: cover;
+    padding: 30px;
+}
+
+.back > p {
+    color: #fff;
+    padding-left: 25px;
+    background-color: rgba(0, 0, 0, 0.56);
+    max-width: 500px;
+    
+}
+
+#back2{
+    background: rgb(255, 255, 255) url(imagens/background002.jpg) center center no-repeat fixed;
+    height: 500px; 
+    background-size: cover;
+    padding: 30px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
