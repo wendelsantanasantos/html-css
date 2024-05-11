@@ -18,25 +18,24 @@ header{
     padding: 55px;
     text-align: center;
     text-decoration: none;
-    font-size: 2em;
     font-family:'Passion One' , cursive;
 
 }
 
 header > h1{
-    font-size: 3em; ;
+    font-size: 10vw;
     font-variant: small-caps;
 }
 
 header > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.5em;
+    font-size: 2vw;
     font-weight: bolder;
     padding: 0;
     margin-top: 0px;
 }
 
-header > p > a{
+ a{
     text-decoration: none;
     color: aquamarine;
 }
@@ -44,36 +43,33 @@ header > p > a{
 main{
     text-align: left;
     font-family: 'Sriracha' , cursive;
-    font-size: 2.2em;
+    font-size: 3.5vw;
     
 }
 
 main > p{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     padding-left: 25px;
     line-height: 2em;
-}
-
-
-#back1{
-    background: rgb(255, 255, 255) url(imagens/background001.jpg) center center no-repeat fixed;
-    height: 500px; 
-    background-size: cover;
-    padding: 30px;
 }
 
 .back > p {
     color: #fff;
     padding-left: 25px;
-    background-color: rgba(0, 0, 0, 0.56);
-    max-width: 500px;
-    
+    background-color: rgba(0, 0, 0, 0.508);
+    border-radius: 5px;
+    max-width: 50vw;
+    max-height: 100vh; 
+}
+#back1{
+    background: rgb(255, 255, 255) url(imagens/background001.jpg) center center no-repeat fixed; 
+    background-size: cover;
+    padding: 30px;
 }
 
 #back2{
-    background: rgb(255, 255, 255) url(imagens/background002.jpg) center center no-repeat fixed;
-    height: 500px; 
+    background: rgb(255, 255, 255) url(imagens/background002.jpg) center center no-repeat fixed; 
     background-size: cover;
     padding: 30px;
 }
@@ -81,7 +77,8 @@ main > p{
 footer{
     background-color: black;
     color: #fff;
-    padding: 5px;
+    padding: 20px;
     margin: 0;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
